@@ -1,13 +1,21 @@
-import { MaintenanceModePage } from "./_pages/maintenance/MaintenanceModePage";
+import { HeroSection } from "./_sections/Hero";
+import { OfferSection } from "./_sections/Offer";
+import { RealizationsSection } from "./_sections/Realizations";
+import { WorkflowSection } from "./_sections/WorkflowSections";
+import { PartnersSection } from "./_sections/Partners";
+import { ContactSection } from "./_sections/Contact";
+import { MapSection } from "./_sections/Map";
 
 export default function Home() {
-  if (!!process.env.MAINTENANCE_MODE_ENABLED) {
-    return <MaintenanceModePage />;
-  }
-
   return (
-    <main className="p-4">
-      <h1 className="text-5xl font-bold text-center">Welcome on PRODOM page</h1>
-    </main> 
-  );
+    <main id="top">
+        <HeroSection />
+        <OfferSection />
+        <RealizationsSection />
+        <WorkflowSection />
+        <PartnersSection />
+        <ContactSection />
+        <MapSection />
+    </main>
+  )
 }

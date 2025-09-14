@@ -1,0 +1,89 @@
+{
+    "name": "Prodom",
+    "realizations": [
+        {
+            "slug": "dom-jednorodzinny-warszawa",
+            "title": "Dom jednorodzinny – Warszawa",
+            "shortDescription": "Nowoczesny dom murowany z garażem, stan deweloperski, 2024 r.",
+            "description": "Realizacja obejmowała budowę nowoczesnego domu murowanego z garażem, z zastosowaniem wysokiej jakości materiałów i nowoczesnych technologii instalacyjnych. Dzięki dobrej organizacji prac całość inwestycji została zrealizowana w zaledwie 9 miesięcy, zapewniając inwestorom komfort i trwałość na lata.",
+            "details": {
+                "type": "Murowany, parterowy z poddaszem",
+                "localization": "Warszawa",
+                "area": 180,
+                "year": 2024,
+                "scope": "Stan deweloperski + instalacje"
+            },
+            "images": []
+        },
+        {
+            "slug": "dom-szkieletowy-krakow",
+            "title": "Dom szkieletowy – Kraków",
+            "shortDescription": "Ekologiczny dom szkieletowy z drewnianą elewacją, wykończony pod klucz.",
+            "description": "Dom wykonany w technologii szkieletowej, stworzony z myślą o energooszczędności i komforcie mieszkańców. Zastosowaliśmy naturalne materiały i rozwiązania sprzyjające mikroklimatowi wnętrz. Czas realizacji – 7 miesięcy.",
+            "details": {
+                "type": "Dom szkieletowy, parterowy z poddaszem użytkowym",
+                "localization": "Kraków",
+                "area": 150,
+                "year": 2023,
+                "scope": "Budowa w technologii drewnianej, ocieplenie naturalną wełną, elewacja drewniana, wykończenie pod klucz"
+            },
+            "images": []
+        },
+        {
+            "slug": "rezydencja-gdansk",
+            "title": "Rezydencja – Gdańsk",
+            "shortDescription": "Ekskluzywna rezydencja z basenem, dachówka ceramiczna, projekt indywidualny.",
+            "description": "Projekt zrealizowany na podstawie indywidualnej koncepcji architektonicznej. Rezydencja wyróżnia się nowoczesnym stylem, dużymi przeszkleniami i luksusowym wykończeniem wnętrz. Całość uzupełnia system smart home oraz ogród z basenem.",
+            "details": {
+                "type": "Rezydencja indywidualna, dwukondygnacyjna",
+                "localization": "Gdańsk",
+                "area": 320,
+                "year": 2022,
+                "scope": "Kompleksowa realizacja pod klucz, dachówka ceramiczna premium, elewacja z kamienia naturalnego, system inteligentnego domu"
+            },
+            "images": []
+        },
+        {
+            "slug": "dom-parterow-lodz",
+            "title": "Dom parterowy – Łódź",
+            "shortDescription": "Praktyczny dom parterowy z tarasem i ogrodem zimowym, ukończony w 2023 roku.",
+            "description": "Dom zaprojektowany z myślą o funkcjonalności i codziennym komforcie. Dzięki otwartemu układowi przestrzeni i dużym przeszkleniom wnętrza są jasne i przyjazne. Realizacja obejmowała także ogród zimowy, który stał się ulubionym miejscem domowników.",
+            "details": {
+                "type": "Dom murowany, parterowy",
+                "localization": "Łódź",
+                "area": 140,
+                "year": 2023,
+                "scope": "Budowa od podstaw, dach wielospadowy, taras i ogród zimowy, instalacje"
+            },
+            "images": []
+        },
+        {
+            "slug": "blizniak-poznan",
+            "title": "Bliźniak – Poznań",
+            "shortDescription": "Funkcjonalny dom bliźniaczy w zabudowie szeregowej, wykonany w technologii murowanej.",
+            "description": "Inwestycja obejmowała budowę dwóch bliźniaczych segmentów w nowoczesnej stylistyce. Dzięki zastosowaniu wysokiej jakości materiałów i praktycznych rozwiązań architektonicznych udało się uzyskać komfortowe, energooszczędne domy dla dwóch rodzin.",
+            "details": {
+                "type": "Dom bliźniaczy, dwukondygnacyjny",
+                "localization": "Poznań",
+                "area": "2 x 120",
+                "year": 2022,
+                "scope": "Stan deweloperski + pełne wykończenie wnętrz, ogrodzenie, zagospodarowanie terenu"
+            },
+            "images": []
+        },
+        {
+            "slug": "nowoczesna-willa-wroclaw",
+            "title": "Nowoczesna willa – Wrocław",
+            "shortDescription": "Reprezentacyjna willa z płaskim dachem, dużymi przeszkleniami i systemem inteligentnego domu.",
+            "description": "Nowoczesna rezydencja zrealizowana w krótkim czasie przy użyciu innowacyjnych rozwiązań technologicznych. Duże przeszklenia i otwarta przestrzeń zapewniają maksymalny dostęp światła dziennego. Dom został wyposażony w system smart home, a całość uzupełnia przestronny taras i ogród.",
+            "details": {
+                "type": "Willa indywidualna, dwukondygnacyjna",
+                "localization": "Wrocław",
+                "area": 260,
+                "year": 2023,
+                "scope": "Budowa pod klucz, fasada z nowoczesnych paneli, system inteligentnego domu, ogród z tarasem"
+            },
+            "images": []
+        }
+    ]
+}
