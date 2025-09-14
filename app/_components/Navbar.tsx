@@ -7,12 +7,12 @@ export const Navbar = () => (
                 {content.name}
             </a>
 
-            <button id="menu-btn" className="md:hidden text-[#111b3a] focus:outline-none" 
-        aria-controls="menu" aria-expanded="false" aria-label="Otwórz menu nawigacyjne">
-  <svg className="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-  </svg>
-</button>
+            <button id="menu-btn" className="md:hidden text-[#111b3a] focus:outline-none"
+                aria-controls="menu" aria-expanded="false" aria-label="Otwórz menu nawigacyjne">
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
 
             <nav id="menu" className="hidden absolute top-full left-0 w-full bg-white border-t border-gray-200 md:static md:w-auto md:flex md:items-center md:gap-4 md:border-0 md:bg-transparent">
                 <ul className="flex flex-col md:flex-row md:gap-4 p-4 md:p-0 text-gray-600">
