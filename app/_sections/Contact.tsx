@@ -13,7 +13,7 @@ export const ContactSection = () => (
                     <input className="w-full border border-gray-300 rounded-lg px-4 py-3" type="text" placeholder="Imię i nazwisko" required />
                     <input className="w-full border border-gray-300 rounded-lg px-4 py-3" type="email" placeholder="E-mail" required />
                     <input className="w-full border border-gray-300 rounded-lg px-4 py-3" type="tel" placeholder="Telefon" />
-                    <select className="w-full border border-gray-300 rounded-lg px-4 py-3">
+                    <select className="w-full border border-gray-300 rounded-lg px-4 py-3" aria-label="Wybierz technologię">
                         <option>Wybierz technologię</option>
                         <option>Dom murowany</option>
                         <option>Dom szkieletowy</option>
