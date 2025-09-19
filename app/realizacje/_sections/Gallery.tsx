@@ -7,7 +7,7 @@ export const RealizationsGallerySection = () => (
                 <a key={slug} href={`/realizacje/${slug}`} className="bg-white rounded-2xl shadow overflow-hidden">
                     <div className="aspect-[4/3] bg-gray-300"></div>
                     <div className="p-5">
-                        <h3 className="font-semibold text-lg text-[#111b3a]">{title}</h3>
+                        <p className="font-semibold text-lg text-[#111b3a]">{title}</p>
                         <p className="text-sm text-gray-600 mt-1">{shortDescription}</p>
                     </div>
                 </a>
