@@ -1,4 +1,4 @@
-import content from '@/public/content.json';
+import content from '@/app/content.json';
 
 import { HeroSection } from "./_sections/Hero";
 import { RealizationDetailsSection } from "./_sections/Details";
