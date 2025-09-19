@@ -1,4 +1,4 @@
-import content from '@/public/content.json';
+import content from '@/app/content.json';
 
 export const RealizationsGallerySection = () => (
     <section className="py-20">

@@ -1,4 +1,4 @@
-import content from '@/public/content.json';
+import content from '@/app/content.json';
 
 export const Navbar = () => (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200">
@@ -9,8 +9,8 @@ export const Navbar = () => (
 
             <button id="menu-btn" className="md:hidden text-[#111b3a] focus:outline-none"
                 aria-controls="menu" aria-expanded="false" aria-label="Otwórz menu nawigacyjne">
-                <svg className="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
 

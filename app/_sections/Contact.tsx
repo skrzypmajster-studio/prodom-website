@@ -1,4 +1,5 @@
 'use client'
+import content from '@/app/content.json';
 
 export const ContactSection = () => (
     <section id="kontakt" className="py-20">
@@ -27,12 +28,12 @@ export const ContactSection = () => (
             </div>
             <div className="bg-white shadow rounded-2xl p-6">
                 <h3 className="text-xl font-semibold mb-2">Dane kontaktowe</h3>
-                <p><strong>PRODOM Sp. z o.o.</strong><br />ul. Przykładowa 1, 00-000 Miasto<br />NIP: 0000000000</p>
+                <p><strong>{content.contact.name}</strong><br />{content.contact.address}<br />NIP: {content.contact.nip}</p>
                 <p className="mt-4">
-                    <a className="text-[#F95300] font-semibold" href="tel:+48600000000">+48 600 000 000</a><br />
-                    <a className="text-[#F95300] font-semibold" href="mailto:biuro@PRODOM.pl">biuro@PRODOM.pl</a>
+                    <a className="text-[#F95300] font-semibold" href={`tel:${content.contact.phone_hyperlink}`}>{content.contact.phone_pretty}</a><br />
+                    <a className="text-[#F95300] font-semibold" href={`mailto:${content.contact.email}`}>{content.contact.email}</a>
                 </p>
-                <p className="text-sm text-gray-500 mt-2">Godziny pracy: pn–pt 8:00–17:00</p>
+                <p className="text-sm text-gray-500 mt-2">Godziny pracy: {content.contact.working_hours}</p>
             </div>
         </div>
     </section>

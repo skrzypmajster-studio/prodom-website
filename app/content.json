@@ -85,5 +85,14 @@
             },
             "images": []
         }
-    ]
+    ],
+    "contact": {
+        "name": "PRODOM RAFAŁ KWAŚNY",
+        "address": "ul. Łęcka 61, 32-626 Jawiszowice",
+        "nip": "6521005641",
+        "phone_hyperlink": "+48795752204",
+        "phone_pretty": "+48 795 752 204",
+        "email": "prodom.raf@gmail.pl",
+        "working_hours": "pn–pt 7:00–15:00"
+    }
 }
