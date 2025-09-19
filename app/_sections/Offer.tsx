@@ -1,7 +1,7 @@
 export const OfferSection = () => (
     <section id="oferta" className="py-20">
         <div className="max-w-6xl mx-auto px-6">
-            <div className="flex items-end justify-between mb-10">
+            <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
                 <div>
                     <h2 className="text-3xl font-bold">Kompleksowa oferta wykonawcza</h2>
                     <p className="text-gray-600">Wybierz zakres prac – od stanu surowego po wykończenie pod klucz. Poniżej nasze główne specjalizacje.</p>
