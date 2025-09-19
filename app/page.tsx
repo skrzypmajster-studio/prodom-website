@@ -4,7 +4,7 @@ import { RealizationsSection } from "./_sections/Realizations";
 import { WorkflowSection } from "./_sections/WorkflowSections";
 import { PartnersSection } from "./_sections/Partners";
 import { ContactSection } from "./_sections/Contact";
-import { MapSection } from "./_sections/Map";
+// import { MapSection } from "./_sections/Map";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         <WorkflowSection />
         <PartnersSection />
         <ContactSection />
-        <MapSection />
+        {/* <MapSection /> */}
     </main>
   )
 }
