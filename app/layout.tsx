@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "PRODOM – Budowa domów murowanych i szkieletowych od podstaw",
   description: "PRODOM – kompleksowa budowa domów murowanych i szkieletowych: ciesielstwo, dekarstwo, pokrycia dachowe, okucia, parapety, rynny oraz sprzedaż metali kolorowych. Od projektu po wykończenie.",
   robots: {
-    index: false, // enable only for production environment
+    index: !!process.env.ROBOTS_INDEX_ENABLED,
   }
 };
 
