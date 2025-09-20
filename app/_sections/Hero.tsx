@@ -22,8 +22,8 @@ export const HeroSection = () => (
                     <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
                     <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
                     <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
+                    <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
                 </div>
-                <p className="text-xs text-gray-500 mt-2">Wizualizacje poglądowe. Podmień na zdjęcia z realizacji.</p>
             </div>
         </div>
     </section>
