@@ -50,6 +50,20 @@ export const OfferSection = () => (
                     <h3 className="text-lg font-semibold mb-1">Sprzedaż metali kolorowych</h3>
                     <p className="text-gray-600">Miedź, aluminium, tytan-cynk i inne metale nieżelazne. Cięcie na wymiar i dostawa.</p>
                 </div>
+                <div className="bg-white shadow rounded-2xl p-6">
+                    <span className="inline-block bg-blue-100 text-blue-600 text-xs font-medium px-3 py-1 rounded-full mb-2">Stolarka okienna</span>
+                    <h3 className="text-lg font-semibold mb-1">Sprzedaż okien</h3>
+                    <p className="text-gray-600">
+                        Oferujemy szeroki wybór okien PCV, drewnianych i aluminiowych w różnych rozmiarach i wariantach wykończenia, wraz z profesjonalnym doradztwem technicznym.
+                    </p>
+                </div>
+                <div className="bg-white shadow rounded-2xl p-6">
+                    <span className="inline-block bg-blue-100 text-blue-600 text-xs font-medium px-3 py-1 rounded-full mb-2">Materiały konstrukcyjne</span>
+                    <h3 className="text-lg font-semibold mb-1">Sprzedaż drewna konstrukcyjnego</h3>
+                    <p className="text-gray-600">
+                        Wysokiej jakości drewno konstrukcyjne KVH, BSH oraz tarcica, idealne do budowy więźb dachowych, domów szkieletowych i innych elementów konstrukcyjnych.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
