@@ -1,5 +1,72 @@
 {
     "name": "Prodom",
+    "offer": {
+        "header": "Kompleksowa oferta wykonawcza",
+        "subtitle": "Wybierz zakres prac – od stanu surowego po wykończenie pod klucz. Poniżej nasze główne specjalizacje.",
+        "contact_button_text": "Porozmawiajmy o Twoim domu",
+        "items": [
+        {
+            "category": "Konstrukcje drewniane",
+            "name": "Ciesielstwo",
+            "description": "Prefabrykacja i montaż więźb dachowych, konstrukcji szkieletowych oraz altan i zadaszeń."
+        },
+        {
+            "category": "Dachy",
+            "name": "Dekarstwo",
+            "description": "Profesjonalny montaż pokryć oraz obróbek, szczelność i estetyka potwierdzona detalem."
+        },
+        {
+            "category": "Generalne wykonawstwo",
+            "name": "Usługi ogólnobudowlane",
+            "description": "Fundamenty, murowanie, stropy, elewacje i wykończenia. Koordynujemy wszystkie etapy."
+        },
+        {
+            "category": "Materiały premium",
+            "name": "Pokrycia dachowe",
+            "description": "Dobór i montaż dachówki ceramicznej, cementowej, blach panelowych i blachodachówek."
+        },
+        {
+            "category": "Detale i obróbki",
+            "name": "Okucia",
+            "description": "Indywidualne okucia i obróbki blacharskie. Precyzyjne dopasowanie do projektu."
+        },
+        {
+            "category": "Wykończenie",
+            "name": "Parapety",
+            "description": "Montaż parapetów zewnętrznych i wewnętrznych. Estetyka, izolacja i trwałość."
+        },
+        {
+            "category": "Odwodnienie dachu",
+            "name": "Rynny",
+            "description": "Systemy rynnowe stalowe i PVC wraz z montażem i akcesoriami."
+        },
+        {
+            "category": "Sprzedaż",
+            "name": "Sprzedaż metali kolorowych",
+            "description": "Miedź, aluminium, tytan-cynk i inne metale nieżelazne. Cięcie na wymiar i dostawa."
+        },
+        {
+            "category": "Pokrycia dachowe",
+            "name": "Gonty",
+            "description": "Sprzedaż i montaż gontów bitumicznych oraz drewnianych, stanowiących trwałe i estetyczne pokrycie dachowe."
+        },
+        {
+            "category": "Stolarka okienna",
+            "name": "Sprzedaż okien",
+            "description": "Oferujemy szeroki wybór okien PCV, drewnianych i aluminiowych w różnych rozmiarach i wariantach wykończenia, wraz z profesjonalnym doradztwem technicznym."
+        },
+        {
+            "category": "Materiały konstrukcyjne",
+            "name": "Sprzedaż drewna konstrukcyjnego",
+            "description": "Wysokiej jakości drewno konstrukcyjne KVH, BSH oraz tarcica, idealne do budowy więźb dachowych, domów szkieletowych i innych elementów konstrukcyjnych."
+        },
+        {
+            "category": "Odwodnienie dachu",
+            "name": "Rynny metalowe",
+            "description": "Systemy rynnowe z blach stalowych i aluminiowych, gwarantujące trwałość, odporność na warunki atmosferyczne i niezawodny odpływ wody."
+        }
+    ]
+    },
     "realizations": [
         {
             "slug": "dom-jednorodzinny-warszawa",
