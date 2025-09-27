@@ -1,3 +1,5 @@
+import { featuredRealizationImages } from '@/app/content.json';
+
 export const HeroSection = () => (
     <section className="py-20 bg-gradient-to-br from-orange-50 to-blue-50">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
@@ -19,10 +21,18 @@ export const HeroSection = () => (
             </div>
             <div className="bg-white shadow-md rounded-2xl p-6">
                 <div className="grid grid-cols-2 gap-3">
-                    <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
-                    <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
-                    <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
-                    <div className="aspect-[4/3] rounded-lg bg-gray-200"></div>
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                        <img src={featuredRealizationImages[0]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                        <img src={featuredRealizationImages[1]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                        <img src={featuredRealizationImages[2]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                        <img src={featuredRealizationImages[3]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
+                    </div>
                 </div>
             </div>
         </div>

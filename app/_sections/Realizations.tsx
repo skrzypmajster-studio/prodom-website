@@ -1,27 +1,59 @@
-import content from '@/app/content.json';
+import { featuredRealizationImages } from '@/app/content.json';
 
 export const RealizationsSection = () => (
     <section id="realizacje" className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
-            <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
+            <div className="flex items-end justify-between mb-10">
                 <div>
-                    <h2 className="text-3xl font-bold">Nasze realizacje</h2>
-                    <p className="text-gray-600">Zobacz kilka wybranych projektów, które zrealizowaliśmy dla naszych klientów.</p>
+                    <h2 className="text-3xl font-bold text-[#111b3a]">Nasze realizacje</h2>
+                    <p className="text-gray-600">
+                        Zobacz wybrane zdjęcia z naszych realizacji. Budujemy solidne i estetyczne domy, które cieszą oko i służą na lata.
+                    </p>
                 </div>
-                <a href="/realizacje" className="bg-[#F95300] hover:bg-orange-600 text-white px-4 py-2 rounded-xl font-semibold">Wszystkie realizacje</a>
+                <a href="/realizacje" className="bg-[#F95300] hover:bg-orange-600 text-white px-4 py-2 rounded-xl font-semibold">
+                    Zobacz wszystkie
+                </a>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6">
-                {content.realizations.slice(0, 3).map(({ slug, title, shortDescription }) => (
-                    <a key={slug} href={`/realizacje/${slug}`} className="bg-white shadow rounded-2xl overflow-hidden">
-                        <div className="aspect-[4/3] bg-gray-200"></div>
-                        <div className="p-6">
-                            <h3 className="text-lg font-semibold mb-2">{title}</h3>
-                            <p className="text-gray-600 text-sm">{shortDescription}</p>
-                        </div>
-                    </a>
-                ))}
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                {
+                    featuredRealizationImages.map((realizationImagePath, idx) => {
+                        const realizationCount = idx + 1;
+
+                        return (
+                            <div key={`realization-${realizationCount}`} className="aspect-[4/3] rounded-xl overflow-hidden shadow">
+                                <img src={realizationImagePath} alt={`Realizacja ${realizationCount}`} className="w-full h-full object-cover" />
+                            </div>
+                        )
+                    })
+                }
             </div>
         </div>
     </section>
 )
+
+// export const OldRealizationsSection = () => (
+//     <section id="realizacje" className="py-20 bg-gray-100">
+//         <div className="max-w-6xl mx-auto px-6">
+//             <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
+//                 <div>
+//                     <h2 className="text-3xl font-bold">Nasze realizacje</h2>
+//                     <p className="text-gray-600">Zobacz kilka wybranych projektów, które zrealizowaliśmy dla naszych klientów.</p>
+//                 </div>
+//                 <a href="/realizacje" className="bg-[#F95300] hover:bg-orange-600 text-white px-4 py-2 rounded-xl font-semibold">Wszystkie realizacje</a>
+//             </div>
+
+//             <div className="grid md:grid-cols-3 gap-6">
+//                 {content.realizations.slice(0, 3).map(({ slug, title, shortDescription }) => (
+//                     <a key={slug} href={`/realizacje/${slug}`} className="bg-white shadow rounded-2xl overflow-hidden">
+//                         <div className="aspect-[4/3] bg-gray-200"></div>
+//                         <div className="p-6">
+//                             <h3 className="text-lg font-semibold mb-2">{title}</h3>
+//                             <p className="text-gray-600 text-sm">{shortDescription}</p>
+//                         </div>
+//                     </a>
+//                 ))}
+//             </div>
+//         </div>
+//     </section>
+// )

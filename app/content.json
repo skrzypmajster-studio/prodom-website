@@ -5,67 +5,67 @@
         "subtitle": "Wybierz zakres prac – od stanu surowego po wykończenie pod klucz. Poniżej nasze główne specjalizacje.",
         "contact_button_text": "Porozmawiajmy o Twoim domu",
         "items": [
-        {
-            "category": "Konstrukcje drewniane",
-            "name": "Ciesielstwo",
-            "description": "Prefabrykacja i montaż więźb dachowych, konstrukcji szkieletowych oraz altan i zadaszeń."
-        },
-        {
-            "category": "Dachy",
-            "name": "Dekarstwo",
-            "description": "Profesjonalny montaż pokryć oraz obróbek, szczelność i estetyka potwierdzona detalem."
-        },
-        {
-            "category": "Generalne wykonawstwo",
-            "name": "Usługi ogólnobudowlane",
-            "description": "Fundamenty, murowanie, stropy, elewacje i wykończenia. Koordynujemy wszystkie etapy."
-        },
-        {
-            "category": "Materiały premium",
-            "name": "Pokrycia dachowe",
-            "description": "Dobór i montaż dachówki ceramicznej, cementowej, blach panelowych i blachodachówek."
-        },
-        {
-            "category": "Detale i obróbki",
-            "name": "Okucia",
-            "description": "Indywidualne okucia i obróbki blacharskie. Precyzyjne dopasowanie do projektu."
-        },
-        {
-            "category": "Wykończenie",
-            "name": "Parapety",
-            "description": "Montaż parapetów zewnętrznych i wewnętrznych. Estetyka, izolacja i trwałość."
-        },
-        {
-            "category": "Odwodnienie dachu",
-            "name": "Rynny",
-            "description": "Systemy rynnowe stalowe i PVC wraz z montażem i akcesoriami."
-        },
-        {
-            "category": "Sprzedaż",
-            "name": "Sprzedaż metali kolorowych",
-            "description": "Miedź, aluminium, tytan-cynk i inne metale nieżelazne. Cięcie na wymiar i dostawa."
-        },
-        {
-            "category": "Pokrycia dachowe",
-            "name": "Gonty",
-            "description": "Sprzedaż i montaż gontów bitumicznych oraz drewnianych, stanowiących trwałe i estetyczne pokrycie dachowe."
-        },
-        {
-            "category": "Stolarka okienna",
-            "name": "Sprzedaż okien",
-            "description": "Oferujemy szeroki wybór okien PCV, drewnianych i aluminiowych w różnych rozmiarach i wariantach wykończenia, wraz z profesjonalnym doradztwem technicznym."
-        },
-        {
-            "category": "Materiały konstrukcyjne",
-            "name": "Sprzedaż drewna konstrukcyjnego",
-            "description": "Wysokiej jakości drewno konstrukcyjne KVH, BSH oraz tarcica, idealne do budowy więźb dachowych, domów szkieletowych i innych elementów konstrukcyjnych."
-        },
-        {
-            "category": "Odwodnienie dachu",
-            "name": "Rynny metalowe",
-            "description": "Systemy rynnowe z blach stalowych i aluminiowych, gwarantujące trwałość, odporność na warunki atmosferyczne i niezawodny odpływ wody."
-        }
-    ]
+            {
+                "category": "Konstrukcje drewniane",
+                "name": "Ciesielstwo",
+                "description": "Prefabrykacja i montaż więźb dachowych, konstrukcji szkieletowych oraz altan i zadaszeń."
+            },
+            {
+                "category": "Dachy",
+                "name": "Dekarstwo",
+                "description": "Profesjonalny montaż pokryć oraz obróbek, szczelność i estetyka potwierdzona detalem."
+            },
+            {
+                "category": "Generalne wykonawstwo",
+                "name": "Usługi ogólnobudowlane",
+                "description": "Fundamenty, murowanie, stropy, elewacje i wykończenia. Koordynujemy wszystkie etapy."
+            },
+            {
+                "category": "Materiały premium",
+                "name": "Pokrycia dachowe",
+                "description": "Dobór i montaż dachówki ceramicznej, cementowej, blach panelowych i blachodachówek."
+            },
+            {
+                "category": "Detale i obróbki",
+                "name": "Okucia",
+                "description": "Indywidualne okucia i obróbki blacharskie. Precyzyjne dopasowanie do projektu."
+            },
+            {
+                "category": "Wykończenie",
+                "name": "Parapety",
+                "description": "Montaż parapetów zewnętrznych i wewnętrznych. Estetyka, izolacja i trwałość."
+            },
+            {
+                "category": "Odwodnienie dachu",
+                "name": "Rynny",
+                "description": "Systemy rynnowe stalowe i PVC wraz z montażem i akcesoriami."
+            },
+            {
+                "category": "Sprzedaż",
+                "name": "Sprzedaż metali kolorowych",
+                "description": "Miedź, aluminium, tytan-cynk i inne metale nieżelazne. Cięcie na wymiar i dostawa."
+            },
+            {
+                "category": "Pokrycia dachowe",
+                "name": "Gonty",
+                "description": "Sprzedaż i montaż gontów bitumicznych oraz drewnianych, stanowiących trwałe i estetyczne pokrycie dachowe."
+            },
+            {
+                "category": "Stolarka okienna",
+                "name": "Sprzedaż okien",
+                "description": "Oferujemy szeroki wybór okien PCV, drewnianych i aluminiowych w różnych rozmiarach i wariantach wykończenia, wraz z profesjonalnym doradztwem technicznym."
+            },
+            {
+                "category": "Materiały konstrukcyjne",
+                "name": "Sprzedaż drewna konstrukcyjnego",
+                "description": "Wysokiej jakości drewno konstrukcyjne KVH, BSH oraz tarcica, idealne do budowy więźb dachowych, domów szkieletowych i innych elementów konstrukcyjnych."
+            },
+            {
+                "category": "Odwodnienie dachu",
+                "name": "Rynny metalowe",
+                "description": "Systemy rynnowe z blach stalowych i aluminiowych, gwarantujące trwałość, odporność na warunki atmosferyczne i niezawodny odpływ wody."
+            }
+        ]
     },
     "realizations": [
         {
@@ -152,6 +152,105 @@
             },
             "images": []
         }
+    ],
+    "featuredRealizationImages": [
+        "https://prodom-domy.pl/images/realizacje/20210603_104750.jpg",
+        "https://prodom-domy.pl/images/realizacje/20210703_103504.jpg",
+        "https://prodom-domy.pl/images/realizacje/20210802_101413.jpg",
+        "https://prodom-domy.pl/images/realizacje/20211127_111825.jpg",
+        "https://prodom-domy.pl/images/realizacje/20211222_143242.jpg",
+        "https://prodom-domy.pl/images/realizacje/20211222_143301.jpg"
+    ],
+    "realizationImages": [
+        "https://prodom-domy.pl/images/realizacje/20210603_104750.jpg",
+        "https://prodom-domy.pl/images/realizacje/20210703_103504.jpg",
+        "https://prodom-domy.pl/images/realizacje/20210802_101413.jpg",
+        "https://prodom-domy.pl/images/realizacje/20211127_111825.jpg",
+        "https://prodom-domy.pl/images/realizacje/20211222_143242.jpg",
+        "https://prodom-domy.pl/images/realizacje/20211222_143301.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190121_160500.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190122_153601.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190125_093901.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190216_083136.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190222_140456.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190720_090734.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20190720_090950.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20201203_105939_1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20201203_110948_0.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20201218_144322_0.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20201218_144337_1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210122_114245_9.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210422_171819_8.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210504_145921_3.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210515_093334_1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210520_095810_4.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210520_095824_0.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20210521_134844_5.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220302_122756.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220407_104056.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220506_094236.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220506_094247.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220620_082616.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220620_082621.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220620_082627.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220620_091856.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220620_111629.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220621_134439.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220621_134458.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220624_090247.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220624_091821.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220624_103252.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220624_110801.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220627_105124.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220627_105131.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220630_163038.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220722_094928.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220728_090442.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220728_090452.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220728_151215.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220917_131319.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220917_131331.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20220922_121352.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20221123_125350.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20231031_133622_082.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20231031_133632_849.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20231108_125504_850.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240226_121657_177.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240226_121902_457.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240403_094039_623.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240412_113518_584.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240412_113538_016.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240506_083709_440.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240517_103405_858.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240517_103432_539.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240517_103446_266.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240610_104211_067.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240626_141203_939.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240629_124251_720.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240713_115431_742.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240713_115446_524.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240725_132514_922.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240829_153436_133.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240829_153451_099.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20240919_174159_871.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241030_172230_153.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241030_172339_994.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241103_093239_471.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241103_093246_832.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241103_155016_058.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241106_135114_512.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241112_141357_940.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241113_150548_182.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241113_150704_452.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241113_150707_966.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241219_141208_758.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20241219_141211_834.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20250118_134155_266-1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20250118_135041_223-1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20250124_113256_125-1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20250124_113331_317-1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20250124_113358_116-1.jpg",
+        "https://prodom-domy.pl/images/realizacje/IMG_20250201_114534_014.jpg"
     ],
     "contact": {
         "name": "PRODOM RAFAŁ KWAŚNY",
