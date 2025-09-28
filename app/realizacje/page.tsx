@@ -2,6 +2,12 @@
 // import { RealizationsGallerySection } from "./_sections/Gallery";
 // import { CallToActionSection } from "./_sections/CallToAction";
 import { realizationImages } from '@/app/content.json';
+import { LightboxGallery } from '@/app/_components/LightboxGallery';
+
+const lightboxImages = realizationImages.map((realizationImage) => ({
+    src: realizationImage,
+    thumbnail: realizationImage,
+}));
 
 export default function RealizationDetails() {
   return (
@@ -14,7 +20,8 @@ export default function RealizationDetails() {
       </section>
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {
+          <LightboxGallery images={lightboxImages} />
+          {/* {
             realizationImages.map((realizationImagePath, idx) => {
               const realizationCount = idx + 1;
 
@@ -24,7 +31,7 @@ export default function RealizationDetails() {
                 </div>
               )
             })
-          }
+          } */}
         </div>
       </section>
     </main>

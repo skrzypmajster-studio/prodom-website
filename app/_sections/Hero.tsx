@@ -21,16 +21,16 @@ export const HeroSection = () => (
             </div>
             <div className="bg-white shadow-md rounded-2xl p-6">
                 <div className="grid grid-cols-2 gap-3">
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
                         <img src={featuredRealizationImages[0]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
                     </div>
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
                         <img src={featuredRealizationImages[1]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
                     </div>
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
                         <img src={featuredRealizationImages[2]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
                     </div>
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow">
+                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
                         <img src={featuredRealizationImages[3]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
                     </div>
                 </div>

@@ -1,4 +1,10 @@
 import { featuredRealizationImages } from '@/app/content.json';
+import { LightboxGallery } from '@/app/_components/LightboxGallery';
+
+const lightboxImages = featuredRealizationImages.map((realizationImage) => ({
+    src: realizationImage,
+    thumbnail: realizationImage,
+}));
 
 export const RealizationsSection = () => (
     <section id="realizacje" className="py-20 bg-gray-100">
@@ -16,23 +22,14 @@ export const RealizationsSection = () => (
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-                {
-                    featuredRealizationImages.map((realizationImagePath, idx) => {
-                        const realizationCount = idx + 1;
-
-                        return (
-                            <div key={`realization-${realizationCount}`} className="aspect-[4/3] rounded-xl overflow-hidden shadow">
-                                <img src={realizationImagePath} alt={`Realizacja ${realizationCount}`} className="w-full h-full object-cover" />
-                            </div>
-                        )
-                    })
-                }
+                <LightboxGallery images={lightboxImages} />
             </div>
         </div>
     </section>
 )
 
-// export const OldRealizationsSection = () => (
+// Old verions of realizations section
+// export const RealizationsSection = () => (
 //     <section id="realizacje" className="py-20 bg-gray-100">
 //         <div className="max-w-6xl mx-auto px-6">
 //             <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
