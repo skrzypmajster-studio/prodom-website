@@ -28,7 +28,7 @@ export const Navbar = () => {
                     </svg>
                 </button>
 
-                <nav id="menu" className={`absolute top-full left-0 w-full bg-transparent border-t border-gray-200 md:static md:w-auto md:flex md:items-center md:gap-4 md:border-0 md:bg-transparent${!isActive ? ' hidden' : ''}`}>
+                <nav id="menu" className={`absolute top-full left-0 w-full bg-white md:bg-transparent border-t border-gray-200 md:static md:w-auto md:flex md:items-center md:gap-4 md:border-0 md:bg-transparent${!isActive ? ' hidden' : ''}`}>
                     <ul className="flex flex-col md:flex-row md:gap-4 p-4 md:p-0 text-gray-600">
                         <li><a className="hover:text-[#111b3a] px-3 py-2 block" href="/#oferta" onClick={handleMenuItemClick}>Oferta</a></li>
                         <li><a className="hover:text-[#111b3a] px-3 py-2 block" href="/#realizacje" onClick={handleMenuItemClick}>Realizacje</a></li>

@@ -9,7 +9,7 @@ const lightboxImages = featuredRealizationImages.map((realizationImage) => ({
 export const RealizationsSection = () => (
     <section id="realizacje" className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
-            <div className="flex items-end justify-between mb-10">
+            <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
                 <div>
                     <h2 className="text-3xl font-bold text-[#111b3a]">Nasze realizacje</h2>
                     <p className="text-gray-600">
