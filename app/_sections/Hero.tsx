@@ -1,4 +1,4 @@
-import { featuredRealizationImages } from '@/app/content.json';
+import { heroRealizationImages } from '@/app/content.json';
 
 export const HeroSection = () => (
     <section className="py-20 bg-gradient-to-br from-orange-50 to-blue-50">
@@ -6,7 +6,7 @@ export const HeroSection = () => (
             <div>
                 <div className="text-blue-500 uppercase font-bold tracking-wider text-sm">Budowa domów od A do Z</div>
                 <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mt-2">Dom murowany lub szkieletowy – <br />sprawnie, solidnie, na czas.</h1>
-                <p className="text-gray-600 text-lg mt-4 max-w-xl">PRODOM to generalny wykonawca, który prowadzi inwestycję od fundamentów po dach i detale wykończeniowe. Zapewniamy pełną koordynację, terminowość i jakość potwierdzoną realizacjami.</p>
+                <p className="text-gray-600 text-lg mt-4 max-w-xl">PRODOM to generalny wykonawca, który prowadzi inwestycję od fundamentów po dach i detale wykończeniowe. Wykonujemy domy w oparciu o projekty naszych klientów (indywidualna wycena). Zapewniamy pełną koordynację, terminowość i jakość potwierdzoną realizacjami.</p>
                 <div className="flex gap-4 mt-6 flex-wrap">
                     <a className="bg-[#F95300] hover:bg-orange-600 text-white px-5 py-3 rounded-xl font-semibold" href="#kontakt">Bezpłatna wycena</a>
                     <a className="border border-gray-300 hover:bg-gray-100 text-gray-700 px-5 py-3 rounded-xl font-semibold" href="#oferta">Zobacz ofertę</a>
@@ -21,18 +21,13 @@ export const HeroSection = () => (
             </div>
             <div className="bg-white shadow-md rounded-2xl p-6">
                 <div className="grid grid-cols-2 gap-3">
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
-                        <img src={featuredRealizationImages[0]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
-                    </div>
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
-                        <img src={featuredRealizationImages[1]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
-                    </div>
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
-                        <img src={featuredRealizationImages[2]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
-                    </div>
-                    <div className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
-                        <img src={featuredRealizationImages[3]} alt={`Realizacja 1`} className="w-full h-full object-cover" />
-                    </div>
+                    {
+                        heroRealizationImages.map((realization, idx) => (
+                            <div key={`Realizacja ${idx + 1}`} className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
+                                <img src={realization} alt={`Realizacja ${idx + 1}`} className="w-full h-full object-cover" />
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </div>

@@ -1,9 +1,3 @@
-import BekoLogo from '@/public/partners/beko-logo.svg';
-import WkretmetLogo from '@/public/partners/wkretmet-logo.svg';
-import FakroLogo from '@/public/partners/fakro-logo.svg';
-import VmzincLogo from '@/public/partners/vmzinc-logo.svg';
-import BryzaLogo from '@/public/partners/bryza-logo.svg';
-
 export const PartnersSection = () => (
     <section id="partnerzy" className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">

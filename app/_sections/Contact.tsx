@@ -6,20 +6,18 @@ export const ContactSection = () => (
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
             <div>
                 <h2 className="text-3xl font-bold mb-4">Porozmawiajmy o Twojej inwestycji</h2>
-                <form className="space-y-4" onSubmit={(event) => {
-                    event.preventDefault();
-                    alert('Dziękujemy! Skontaktujemy się wkrótce.');
-                }}>
-                    <input className="w-full border border-gray-300 rounded-lg px-4 py-3" type="text" placeholder="Imię i nazwisko" required />
-                    <input className="w-full border border-gray-300 rounded-lg px-4 py-3" type="email" placeholder="E-mail" required />
-                    <input className="w-full border border-gray-300 rounded-lg px-4 py-3" type="tel" placeholder="Telefon" />
-                    <select className="w-full border border-gray-300 rounded-lg px-4 py-3" aria-label="Wybierz technologię">
+                <form className="space-y-4" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="c9e11750-5ffa-42e5-8328-3db72d01a4c2" />
+                    <input name="Imię i nazwisko" className="w-full border border-gray-300 rounded-lg px-4 py-3" type="text" placeholder="Imię i nazwisko" required />
+                    <input name="email" className="w-full border border-gray-300 rounded-lg px-4 py-3" type="email" placeholder="E-mail" required />
+                    <input name="telefon" className="w-full border border-gray-300 rounded-lg px-4 py-3" type="tel" placeholder="Telefon" />
+                    <select name="technologia" className="w-full border border-gray-300 rounded-lg px-4 py-3" aria-label="Wybierz technologię">
                         <option>Wybierz technologię</option>
-                        <option>Dom murowany</option>
-                        <option>Dom szkieletowy</option>
-                        <option>Jeszcze nie wiem</option>
+                        <option value="Dom murowany">Dom murowany</option>
+                        <option value="Dom szkieletowy">Dom szkieletowy</option>
+                        <option value="Jeszcze nie wiem">Jeszcze nie wiem</option>
                     </select>
-                    <textarea className="w-full border border-gray-300 rounded-lg px-4 py-3" placeholder="Wiadomość"></textarea>
+                    <textarea name="wiadomosc" className="w-full border border-gray-300 rounded-lg px-4 py-3" placeholder="Wiadomość" rows={1}></textarea>
                     <label className="flex items-center gap-2 text-sm text-gray-600">
                         <input type="checkbox" required /> Wyrażam zgodę na kontakt w celu przygotowania wyceny.
                     </label>
