@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "PRODOM RAFAŁ KWAŚNY",
+  "image": "https://prodom-domy.pl/images/realizacje/realizacja_63.jpg",
+  "url": "https://prodom-domy.pl",
+  "telephone": "+48 795 752 204",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ul. Łęcka 61",
+    "addressLocality": "Jawiszowice",
+    "postalCode": "32-626",
+    "addressCountry": "PL"
+  },
+  "openingHours": "Mo-Fr 07:00-16:00"
+}

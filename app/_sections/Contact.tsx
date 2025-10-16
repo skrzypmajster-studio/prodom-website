@@ -3,8 +3,8 @@ import content from '@/app/content.json';
 
 export const ContactSection = () => (
     <section id="kontakt" className="py-20">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10">
-            <div>
+        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-1 gap-10">
+            {/* <div>
                 <h2 className="text-3xl font-bold mb-4">Porozmawiajmy o Twojej inwestycji</h2>
                 <form className="space-y-4" action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="c9e11750-5ffa-42e5-8328-3db72d01a4c2" />
@@ -23,7 +23,7 @@ export const ContactSection = () => (
                     </label>
                     <button className="bg-[#F95300] hover:bg-orange-600 text-white px-5 py-3 rounded-xl font-semibold" type="submit">Wyślij zapytanie</button>
                 </form>
-            </div>
+            </div> */}
             <div className="bg-white shadow rounded-2xl p-6">
                 <h3 className="text-xl font-semibold mb-2">Dane kontaktowe</h3>
                 <p><strong>{content.contact.name}</strong><br />{content.contact.address}<br />NIP: {content.contact.nip}</p>

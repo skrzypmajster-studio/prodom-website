@@ -3,10 +3,11 @@
 // import { CallToActionSection } from "./_sections/CallToAction";
 import { realizationImages } from '@/app/content.json';
 import { LightboxGallery } from '@/app/_components/LightboxGallery';
+import { getImageUrl } from '@/app/_utils/getImageUrl';
 
 const lightboxImages = realizationImages.map((realizationImage) => ({
-    src: realizationImage,
-    thumbnail: realizationImage,
+    src: getImageUrl(realizationImage),
+    thumbnail: getImageUrl(realizationImage),
 }));
 
 export default function RealizationDetails() {

@@ -1,4 +1,11 @@
 import { heroRealizationImages } from '@/app/content.json';
+import { getImageUrl } from '@/app/_utils/getImageUrl';
+import { LightboxGallery } from '@/app/_components/LightboxGallery';
+
+const lightboxImages = heroRealizationImages.map(({ src, thumbnail}) => ({
+    src: getImageUrl(src),
+    thumbnail: getImageUrl(thumbnail),
+}));
 
 export const HeroSection = () => (
     <section className="py-20 bg-gradient-to-br from-orange-50 to-blue-50">
@@ -21,13 +28,7 @@ export const HeroSection = () => (
             </div>
             <div className="bg-white shadow-md rounded-2xl p-6">
                 <div className="grid grid-cols-2 gap-3">
-                    {
-                        heroRealizationImages.map((realization, idx) => (
-                            <div key={`Realizacja ${idx + 1}`} className="aspect-[4/3] rounded-lg overflow-hidden shadow hover:scale-105 transition-transform">
-                                <img src={realization} alt={`Realizacja ${idx + 1}`} className="w-full h-full object-cover" />
-                            </div>
-                        ))
-                    }
+                    <LightboxGallery images={lightboxImages} />
                 </div>
             </div>
         </div>
