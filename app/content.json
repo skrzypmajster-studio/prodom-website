@@ -177,15 +177,42 @@
         }
     ],
     "featuredRealizationImages": [
-        "/images/realizacje/realizacja_3.jpg",
-        "/images/realizacje/realizacja_4.jpg",
-        "/images/realizacje_nowe/IMG_1163.jpg",
-        "/images/realizacje/realizacja_89.jpg",
-        "/images/realizacje/realizacja_27.jpg",
-        "/images/realizacje/realizacja_65.jpg",
-        "/images/realizacje/realizacja_5.jpg",
-        "/images/realizacje/realizacja_11.jpg",
-        "/images/realizacje/realizacja_84.jpg"
+        {
+            "src": "/images/realizacje/realizacja_3.jpg",
+            "thumbnail": "/images/miniatury/realizacja_3.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_4.jpg",
+            "thumbnail": "/images/miniatury/realizacja_4.webp"
+        },
+        {
+            "src": "/images/realizacje_nowe/IMG_1163.jpg",
+            "thumbnail": "/images/miniatury/IMG_1163.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_89.jpg",
+            "thumbnail": "/images/miniatury/realizacja_89.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_27.jpg",
+            "thumbnail": "/images/miniatury/realizacja_27.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_65.jpg",
+            "thumbnail": "/images/miniatury/realizacja_65.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_5.jpg",
+            "thumbnail": "/images/miniatury/realizacja_5.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_11.jpg",
+            "thumbnail": "/images/miniatury/realizacja_11.webp"
+        },
+        {
+            "src": "/images/realizacje/realizacja_84.jpg",
+            "thumbnail": "/images/miniatury/realizacja_84.webp"
+        }
     ],
     "realizationImages": [
         "/images/realizacje/realizacja_63.jpg",
