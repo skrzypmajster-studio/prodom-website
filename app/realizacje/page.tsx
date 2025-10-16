@@ -5,9 +5,9 @@ import { realizationImages } from '@/app/content.json';
 import { LightboxGallery } from '@/app/_components/LightboxGallery';
 import { getImageUrl } from '@/app/_utils/getImageUrl';
 
-const lightboxImages = realizationImages.map((realizationImage) => ({
-    src: getImageUrl(realizationImage),
-    thumbnail: getImageUrl(realizationImage),
+const lightboxImages = realizationImages.map(({ src, thumbnail}) => ({
+    src: getImageUrl(src),
+    thumbnail: getImageUrl(thumbnail),
 }));
 
 export default function RealizationDetails() {

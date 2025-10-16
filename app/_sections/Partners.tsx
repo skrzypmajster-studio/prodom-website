@@ -4,31 +4,31 @@ export const PartnersSection = () => (
             <h2 className="text-3xl font-bold mb-8">Nasi partnerzy</h2>
             <div className="grid md:grid-cols-4 gap-6">
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/beko-logo.svg" alt="Beko" />
+                    <img src="/partners/beko-logo.svg" alt="Beko" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/henwal-logo.png" alt="Henwal" />
+                    <img src="/partners/henwal-logo.png" alt="Henwal" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/blachodom-plus-logo.png" alt="Blachodom Plus" />
+                    <img src="/partners/blachodom-plus-logo.png" alt="Blachodom Plus" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/wkretmet-logo.svg" alt="Wkrętmet" />
+                    <img src="/partners/wkretmet-logo.svg" alt="Wkrętmet" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/fakro-logo.svg" alt="Fakro" />
+                    <img src="/partners/fakro-logo.svg" alt="Fakro" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center bg-black">
-                    <img src="/images/partners/regamet-logo.png" alt="Regamet" />
+                    <img src="/partners/regamet-logo.png" alt="Regamet" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/vmzinc-logo.svg" alt="Vmzinc" />
+                    <img src="/partners/vmzinc-logo.svg" alt="Vmzinc" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/bryza-logo.svg" alt="Bryza" />
+                    <img src="/partners/bryza-logo.svg" alt="Bryza" />
                 </div>
                 <div className="border border-gray-300 rounded-xl p-6 text-center font-semibold text-gray-600 flex items-center justify-center">
-                    <img src="/images/partners/tegola-logo.png" alt="Tegola" />
+                    <img src="/partners/tegola-logo.png" alt="Tegola" />
                 </div>
             </div>
         </div>
