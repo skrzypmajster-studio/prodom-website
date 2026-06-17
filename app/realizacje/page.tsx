@@ -15,7 +15,7 @@ export default function RealizationDetails() {
     <main>
       <section className="py-16 bg-gradient-to-br from-gray-50 to-gray-200 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold text-[#111b3a]">Galeria realizacji</h1>
-        <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+        <p className="text-[#555555] mt-4 max-w-2xl mx-auto">
           Zobacz wybrane zdjęcia z naszych realizacji – od fundamentów po wykończenie.
         </p>
       </section>

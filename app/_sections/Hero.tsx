@@ -13,9 +13,9 @@ export const HeroSection = () => (
             <div>
                 <div className="text-blue-500 uppercase font-bold tracking-wider text-sm">Budowa domów od A do Z</div>
                 <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mt-2">Dom murowany lub szkieletowy – <br />sprawnie, solidnie, na czas.</h1>
-                <p className="text-gray-600 text-lg mt-4 max-w-xl">PRODOM to generalny wykonawca, który prowadzi inwestycję od fundamentów po dach i detale wykończeniowe. Wykonujemy domy w oparciu o projekty naszych klientów (indywidualna wycena). Zapewniamy pełną koordynację, terminowość i jakość potwierdzoną realizacjami.</p>
+                <p className="text-gray-700 text-lg mt-4 max-w-xl">PRODOM to generalny wykonawca, który prowadzi inwestycję od fundamentów po dach i detale wykończeniowe. Wykonujemy domy w oparciu o projekty naszych klientów (indywidualna wycena). Zapewniamy pełną koordynację, terminowość i jakość potwierdzoną realizacjami.</p>
                 <div className="flex gap-4 mt-6 flex-wrap">
-                    <a className="bg-[#F95300] hover:bg-orange-600 text-white px-5 py-3 rounded-xl font-semibold" href="#kontakt">Bezpłatna wycena</a>
+                    <a className="bg-[#F95300] hover:bg-[#d64500] text-white px-5 py-3 rounded-xl font-semibold" href="#kontakt">Bezpłatna wycena</a>
                     <a className="border border-gray-300 hover:bg-gray-100 text-gray-700 px-5 py-3 rounded-xl font-semibold" href="#oferta">Zobacz ofertę</a>
                 </div>
                 <div className="bg-white shadow-md rounded-2xl p-6 mt-8 grid grid-cols-2 gap-4">

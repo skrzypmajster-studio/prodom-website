@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import Head from "next/head";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./_components/Navbar";
 import { Footer } from "./_components/Footer";
-import Script from "next/script";
 
 const openSansFont = Open_Sans({
   variable: "--font-open-sans",
@@ -13,6 +11,7 @@ const openSansFont = Open_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://prodom-domy.pl'),
   title: "PRODOM – Budowa domów murowanych i szkieletowych od podstaw",
   description: "Firma PRODOM to doświadczony wykonawca domów murowanych i szkieletowych. Oferujemy kompleksowe usługi: ciesielstwo, dekarstwo, pokrycia dachowe, okucia, parapety, rynny oraz sprzedaż metali kolorowych. Budujemy solidnie i na czas.",
   authors: [{ name: "PRODOM RAFAŁ KWAŚNY" }],
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "PRODOM – Budowa domów murowanych i szkieletowych od podstaw",
     description: "Kompleksowa realizacja inwestycji – od projektu po dach. Sprawdź nasze realizacje i poznaj jakość, na której możesz polegać.",
-    images: `${process.env.NEXT_PUBLIC_PAGE_URL}/images/realizacje/realizacja_63.jpg`,
+    // images: '/opengraph-image.jpg',
     url: process.env.NEXT_PUBLIC_PAGE_URL,
     type: "website",
     locale: "pl_PL",
@@ -44,10 +43,10 @@ export const metadata: Metadata = {
   robots: {
     index: !!process.env.ROBOTS_INDEX_ENABLED,
     follow: true,
-  },
-  alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_PAGE_URL}/`,
   }
+  // alternates: {
+  //   canonical: `${process.env.NEXT_PUBLIC_PAGE_URL}/`,
+  // }
 };
 
 export default function RootLayout({

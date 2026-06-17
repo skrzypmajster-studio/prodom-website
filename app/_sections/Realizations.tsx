@@ -13,11 +13,11 @@ export const RealizationsSection = () => (
             <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
                 <div>
                     <h2 className="text-3xl font-bold text-[#111b3a]">Nasze realizacje</h2>
-                    <p className="text-gray-600">
+                    <p className="text-[#555555]">
                         Zobacz wybrane zdjęcia z naszych realizacji. Budujemy solidne i estetyczne domy, które cieszą oko i służą na lata.
                     </p>
                 </div>
-                <a href="/realizacje" className="bg-[#F95300] hover:bg-orange-600 text-white px-4 py-2 rounded-xl font-semibold">
+                <a href="/realizacje" className="bg-[#F95300] hover:bg-[#d64500] text-white px-4 py-2 rounded-xl font-semibold">
                     Zobacz wszystkie
                 </a>
             </div>
@@ -36,9 +36,9 @@ export const RealizationsSection = () => (
 //             <div className="flex gap-2 md:gap-0 flex-col md:flex-row items-start md:items-end justify-between mb-10">
 //                 <div>
 //                     <h2 className="text-3xl font-bold">Nasze realizacje</h2>
-//                     <p className="text-gray-600">Zobacz kilka wybranych projektów, które zrealizowaliśmy dla naszych klientów.</p>
+//                     <p className="text-[#555555]">Zobacz kilka wybranych projektów, które zrealizowaliśmy dla naszych klientów.</p>
 //                 </div>
-//                 <a href="/realizacje" className="bg-[#F95300] hover:bg-orange-600 text-white px-4 py-2 rounded-xl font-semibold">Wszystkie realizacje</a>
+//                 <a href="/realizacje" className="bg-[#F95300] hover:bg-[#d64500] text-white px-4 py-2 rounded-xl font-semibold">Wszystkie realizacje</a>
 //             </div>
 
 //             <div className="grid md:grid-cols-3 gap-6">
@@ -47,7 +47,7 @@ export const RealizationsSection = () => (
 //                         <div className="aspect-[4/3] bg-gray-200"></div>
 //                         <div className="p-6">
 //                             <h3 className="text-lg font-semibold mb-2">{title}</h3>
-//                             <p className="text-gray-600 text-sm">{shortDescription}</p>
+//                             <p className="text-[#555555] text-sm">{shortDescription}</p>
 //                         </div>
 //                     </a>
 //                 ))}

@@ -7,7 +7,8 @@ export const ContactSection = () => (
             <div>
                 <h2 className="text-3xl font-bold mb-4">Porozmawiajmy o Twojej inwestycji</h2>
                 <form className="space-y-4" action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="c9e11750-5ffa-42e5-8328-3db72d01a4c2" />
+                    <input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_CONTACT_FORM_ACCESS_KEY} />
+                    <input type="hidden" name="redirect" value={`${process.env.NEXT_PUBLIC_PAGE_URL}/contact-success`}></input>
                     <input name="Imię i nazwisko" className="w-full border border-gray-300 rounded-lg px-4 py-3" type="text" placeholder="Imię i nazwisko" required />
                     <input name="email" className="w-full border border-gray-300 rounded-lg px-4 py-3" type="email" placeholder="E-mail" required />
                     <input name="telefon" className="w-full border border-gray-300 rounded-lg px-4 py-3" type="tel" placeholder="Telefon" />
@@ -18,10 +19,10 @@ export const ContactSection = () => (
                         <option value="Jeszcze nie wiem">Jeszcze nie wiem</option>
                     </select>
                     <textarea name="wiadomosc" className="w-full border border-gray-300 rounded-lg px-4 py-3" placeholder="Wiadomość" rows={1} required></textarea>
-                    <label className="flex items-center gap-2 text-sm text-gray-600">
+                    <label className="flex items-center gap-2 text-sm text-[#555555]">
                         <input type="checkbox" required /> Wyrażam zgodę na kontakt w celu przygotowania wyceny.
                     </label>
-                    <button className="bg-[#F95300] hover:bg-orange-600 text-white px-5 py-3 rounded-xl font-semibold" type="submit">Wyślij zapytanie</button>
+                    <button className="bg-[#F95300] hover:bg-[#d64500] text-white px-5 py-3 rounded-xl font-semibold" type="submit">Wyślij zapytanie</button>
                 </form>
             </div>
             <div className="bg-white shadow rounded-2xl p-6">

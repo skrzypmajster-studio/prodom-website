@@ -8,7 +8,7 @@ export const RealizationsGallerySection = () => (
                     <div className="aspect-[4/3] bg-gray-300"></div>
                     <div className="p-5">
                         <p className="font-semibold text-lg text-[#111b3a]">{title}</p>
-                        <p className="text-sm text-gray-600 mt-1">{shortDescription}</p>
+                        <p className="text-sm text-[#555555] mt-1">{shortDescription}</p>
                     </div>
                 </a>
             ))}
