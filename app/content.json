@@ -69,6 +69,21 @@
                 "category": "Produkcja rynien",
                 "name": "Producent rynien stalowych, tytan-cynk oraz miedzianych",
                 "description": "Własna linia produkcyjna rynien stalowych, tytan-cynk oraz miedzianych z blachy SSAB 0.6 mm. Gwarantujemy najwyższą jakość, precyzyjne wykonanie i trwałość potwierdzoną wieloletnią odpornością na warunki atmosferyczne."
+            },
+            {
+                "category": "Ogrodzenia i bramy",
+                "name": "Ogrodzenia aluminiowe",
+                "description": "Produkcja i montaż ogrodzeń aluminiowych, furtek, przęseł oraz bram. Trwałość, estetyka i dopasowanie do charakteru posesji."
+            },
+            {
+                "category": "Aluminium i stal",
+                "name": "Balustrady",
+                "description": "Balustrady aluminiowe i stalowe na balkony, tarasy oraz schody. Bezpieczeństwo połączone z estetycznym wykończeniem."
+            },
+            {
+                "category": "Obróbka metalu",
+                "name": "Spawanie laserowe",
+                "description": "Spawanie laserowe, czyszczenie, zgrzewanie i napawanie elementów z aluminium, stali nierdzewnej, stali oraz miedzi."
             }
         ]
     },
