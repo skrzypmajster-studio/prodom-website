@@ -30,6 +30,7 @@ export const ContactSection = () => (
                 <p><strong>{content.contact.name}</strong><br />{content.contact.address}<br />NIP: {content.contact.nip}</p>
                 <p className="mt-4">
                     <a className="text-[#F95300] font-semibold" href={`tel:${content.contact.phone_hyperlink}`}>{content.contact.phone_pretty}</a><br />
+                    <a className="text-[#F95300] font-semibold" href={`tel:+48530034058`}>+48 530 034 058</a><br />
                     <a className="text-[#F95300] font-semibold" href={`mailto:${content.contact.email}`}>{content.contact.email}</a>
                 </p>
                 <p className="text-sm text-gray-500 mt-2">Godziny pracy: {content.contact.working_hours}</p>
